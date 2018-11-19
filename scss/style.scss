@@ -6,7 +6,41 @@
 	box-sizing: border-box;
 }
 
+html {
+	background: url(https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+}
+
+body {
+	font-family: 'Homemade Apple', cursive;
+}
+
 container {
 	display: -webkit-flex;
 	display: flex;
 }
+
+.wrap {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: rgba(256, 256, 256, 0.7);
+}
+
+.name {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+.col {
+	text-align: center;
+	padding: 20px;
+}
+
+.name h3,
+.chorus span {
+	color: red;
+}
+
+
